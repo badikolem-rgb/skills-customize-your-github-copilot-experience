@@ -1,19 +1,45 @@
 
 # 🎮 Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a text-based Hangman game in Python that uses string handling, loops, conditionals, and user input to guide players through guessing a hidden word.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Word Selection and Game Setup
 
-## ✅ Must Have's
+#### Description
+Implement the initial game setup by choosing a secret word at random and preparing the variables needed to track guesses and attempts.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+- Use a predefined list of words
+- Randomly select one word to guess
+- Initialize variables for guessed letters, incorrect guesses, and maximum allowed wrong attempts
+- Display the initial hidden word progress using underscores for unguessed letters
+
+### 🛠️ Game Loop and Guess Handling
+
+#### Description
+Create the main Hangman loop to process player guesses, update the displayed progress, and detect win or lose conditions.
+
+#### Requirements
+Completed program should:
+- Prompt the player to guess a single letter each turn
+- Reveal correct letters in the hidden word and keep wrong guesses separate
+- Reduce remaining attempts for incorrect guesses
+- End the game when the word is fully guessed or the player runs out of attempts
+- Show a win message if the player guesses the word, or a lose message if they fail
+
+### 🛠️ Input Validation and Feedback
+
+#### Description
+Add user-friendly validation and feedback so the game handles repeated guesses and invalid input cleanly.
+
+#### Requirements
+Completed program should:
+- Reject empty input or more than one letter
+- Inform the player when a letter has already been guessed
+- Continue the game without penalizing repeated valid guesses
+- Display the updated progress after each turn
