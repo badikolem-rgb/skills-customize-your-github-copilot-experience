@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "flask-rest-api",
+      "title": "Intro to REST APIs with Flask",
+      "description": "Build a beginner REST API using Flask, JSON routes, and query parameters.",
+      "path": "assignments/flask-rest-api",
+      "dueDate": "2026-07-10",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
